@@ -1,0 +1,63 @@
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+}
+
+.carousel-inner h5{
+    color: black;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.carousel-inner p{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .Services h4{
+      font-size: 10px;
+    }
+    
+    .carousel-inner h5{
+        color: black;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    
+    .carousel-inner p{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10%;
+    }
+
+    .carousel-item img{
+        width: 100%;
+        height: 350px;
+    }
+    
+  }
+
+  @media screen and (min-width: 1440px) {
+    .carousel-item img{
+        width: 100%;
+        height: 700px;
+    }
+    .carousel-inner h5{
+        color: black;
+        font-size: 80px;
+        font-weight: 200;
+    }
+    
+    .carousel-inner p{
+        color: black;
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 13%;
+    }
+    
+  }

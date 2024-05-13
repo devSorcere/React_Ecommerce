@@ -1,0 +1,107 @@
+.Form_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(209, 206, 206);
+  width: 25%;
+  margin: 0% 40%;
+  padding: 1% 0%;
+}
+
+.Form_Text{
+  margin: 0% 40%;
+  margin-top: 5%;
+}
+
+.Form_Container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Fields{
+  margin: 10px;
+}
+
+
+#gender{
+  margin-right: 15px;
+}
+
+#genderMale{
+  margin-right: 10px;
+}
+
+#login {
+  color: rgb(185, 190, 185);
+}
+
+.button_container button {
+  background-color:  black;
+  padding: 10px 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button_container button:hover {
+  color: white;
+}
+
+
+@media screen and (max-width: 425px) {
+  .Form_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 70%;
+    margin: 0% 20%;
+    padding: 1% 0%;
+  }
+  
+  .Form_Text{
+    margin: 0% 20%;
+    margin-top: 10%;
+  }
+  #gender{
+    margin-right: 10px;
+  }
+  
+  #genderMale{
+    margin-right: 5px;
+  }
+
+  .Fields{
+    margin: 5px;
+  }
+}
+
+@media screen and (width: 768px) {
+  .Form_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 50%;
+    margin: 0% 25%;
+    padding: 1% 0%;
+  }
+  
+  .Form_Text{
+    margin: 0% 25%;
+    margin-top: 10%;
+  }
+  #gender{
+    margin-right: 10px;
+  }
+  
+  #genderMale{
+    margin-right: 5px;
+  }
+
+  .Fields{
+    margin: 5px;
+  }
+}
+

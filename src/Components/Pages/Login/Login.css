@@ -1,0 +1,65 @@
+.Login_Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(209, 206, 206);
+  margin: 10% 40%;
+  padding: 5px;
+}
+
+
+.Login_Container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.Fields{
+  margin: 10px;
+}
+
+
+.button_container button {
+  background-color:  black;
+  padding: 10px 40px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button_container button:hover {
+  color: white;
+}
+
+
+@media screen and (max-width: 425px) {
+  .Login_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 70%;
+    margin: 15% 20%;
+  }
+  
+  .Fields{
+    margin: 5px;
+  }
+}
+
+@media screen and (width: 768px) {
+  .Login_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(209, 206, 206);
+    width: 50%;
+    margin: 5% 25%;
+    padding: 1% 0%;
+  }
+  
+  .Fields{
+    margin: 5px;
+  }
+}
+
